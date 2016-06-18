@@ -19,6 +19,7 @@ html {
 	color: #838994;
 	margin-top: 25px;
 	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
 }
 .topnavbar .links li {
 	display: inline-block;
@@ -31,4 +32,13 @@ html {
 .topnavbar .links li:hover {
 	cursor: pointer;
 	color: #333333;
+}
+.introduction {
+	background-image: url('images/first-background copy.jpg');
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 40.938rem;
+	background-position: 0 bottom;
+}
 }
