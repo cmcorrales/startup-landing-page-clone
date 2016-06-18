@@ -1,4 +1,6 @@
-
+html {
+	box-sizing: border-box;
+}
 .topnavbar {
 	color: #fff;
 }
@@ -6,4 +8,12 @@
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+}
+.topnavbar > .links {
+	float: right;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
 }
