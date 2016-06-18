@@ -6,13 +6,16 @@ html {
 }
 .topnavbar {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
 }
 .topnavbar > .content {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	line-height: 16px;
 }
-.topnavbar > .links {
+.body > .links, .content {
 	float: right;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
@@ -38,7 +41,20 @@ html {
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 40.938rem;
+	height: 45.938rem;
 	background-position: 0 bottom;
+	overflow: auto;
+	display: block;
+}
+.content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+.introduction h1, .introduction h3 {
+	text-align: center;
+	color: white;
+	font-weight: 300;
+}
 }
 }
