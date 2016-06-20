@@ -69,4 +69,21 @@ html {
     margin-top: 1.25rem;
     font-size: 1.563rem;
 }
+.button {
+	border-top-style: none;
+	border-top-width: 0px
+	box-sizing border-box;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	display: block;
+	margin: 0 auto;
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	padding-bottom: 16px
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-bottom: 24px;
+
 }
