@@ -15,6 +15,11 @@ html {
 	margin: 0 auto;
 	line-height: 16px;
 }
+.logo {
+	height: 4.375rem;
+	vertical-align: baseline;
+	box-sizing: border-box
+}
 .body > .links, .content {
 	float: right;
 	font-family: 'Roboto', sans-serif;
