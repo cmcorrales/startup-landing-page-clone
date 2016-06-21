@@ -98,6 +98,7 @@ html {
 	overfow: hidden;
 	padding-bottom: 5rem;
 	display: block;
+	border: 0;
 }
 .cases .content {
 	margin-top: 7.875rem;
@@ -108,6 +109,7 @@ html {
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0 auto;
+    color: #1d1e21;
 }
 .content {
 	padding-top: 0px;
@@ -130,6 +132,7 @@ div {
 }
 h2 {
 	display: block;
+	outline: none;
 }
 ol, ul {
 	list-style: none;
@@ -140,4 +143,27 @@ ul {
 .cases .devices > li {
 	width: 33.3333%;
 	float: left;
+}
+.cases .devices h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0px 1.875rem;
+}
+hr {
+	display: block;
+}
+h5 {
+	display: block;
+	font-size: 0.83em;
+	font-weight: bold; 
+}
+ul {
+	display: block;
+}
+.social .icons > li {
+	border-radius: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: inline-block;
+	text-align: center;
 }
