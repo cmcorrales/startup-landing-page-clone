@@ -1,10 +1,12 @@
 html {
-	box-sizing: border-box;
 	margin: 0;
 	padding: 0
 	border: 0
 	font-size: 100%;
 	vertical-align: baseline;
+	font: inherit;
+	font-size: 100%;
+	box-sizing: border-box;
 }
 *, *:before, *:after {
 	box-sizing: inherit;
@@ -29,13 +31,17 @@ html {
 	width: 26px;
 }
 .body > .links, .content {
-	float: right;
-	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0;
 	font-size: 16px;
 	color: #838994;
 	margin-top: 25px;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: antialiased;
+	vertical-align: baseline;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
 }
 .topnavbar .links li {
 	display: inline-block;
@@ -87,15 +93,38 @@ html {
 	color: white;
 	font-size: 1.125rem;
 }
-.cases .devices {
+.cases {
+	background-color: #fff;
+	overfow: hidden;
+	padding-bottom: 5rem;
+	display: block;
+}
+.cases .content {
+	margin-top: 7.875rem;
+	text-align: center;
     width: 33.3333333%;
 	display: inline-block;
     border: 1px solid black;
     box-sizing: border-box;
-    height: 4em;
-    flex-shrink: 10;
-    justify-content: center;
-    align-content: center;
     margin: 0 auto;
     padding: 0 auto;
+}
+.content {
+	padding-top: 0px;
+	padding-right: 0.938rem;
+	padding-bottom: 0px;
+	padding-left: 0.938rem;
+	margin: 0 auto;
+	min-width: 37.5rem; 
+}
+div {
+	display: block;
+}
+.cases h2 {
+	font-size: 2.75rem;
+	margin-top: 1.625rem;
+	margin-right: 0px;
+	margin-bottom: 3.125rem;
+	margin-left: 0px;
+	font-weight: 300;
 }
