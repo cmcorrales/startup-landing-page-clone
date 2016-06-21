@@ -128,3 +128,16 @@ div {
 	margin-left: 0px;
 	font-weight: 300;
 }
+h2 {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+ul {
+	display: block;
+}
+.cases .devices > li {
+	width: 33.3333%;
+	float: left;
+}
