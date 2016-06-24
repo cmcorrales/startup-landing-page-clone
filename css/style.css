@@ -17,7 +17,7 @@ html {
 	width: 100%;
 	z-index: 9999;
 }
-.topnavbar > .content {
+.topnavbar {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
@@ -29,8 +29,9 @@ html {
 }
 .logo {
 	width: 26px;
+	align-content: left;
 }
-.body > .links, .content {
+.body > .links, .content, .content2 {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -65,6 +66,11 @@ html {
 	overflow: auto;
 	display: block;
 }
+.introduction .buttons {
+	color: white;
+	text-align: center;
+	margin-top: 1.563rem;
+}
 .content {
 	width: 970px;
 	height: 70px;
@@ -89,6 +95,7 @@ html {
 	border-color: #f15a29;
 	text-shadow: none;
 	border-style: none;
+	border-radius: 4px;
 	padding: 1rem 1.5rem;
 	color: white;
 	font-size: 1.125rem;
@@ -100,12 +107,11 @@ html {
 	display: block;
 	border: 0;
 }
-.cases .content {
+.cases .content .content2 {
 	margin-top: 7.875rem;
 	text-align: center;
     width: 33.3333333%;
 	display: inline-block;
-    border: 1px solid black;
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0 auto;
@@ -118,6 +124,16 @@ html {
 	padding-left: 0.938rem;
 	margin: 0 auto;
 	min-width: 37.5rem; 
+	text-align: center;
+}
+.content2 {
+	padding-top: 0px;
+	padding-right: 0.938rem;
+	padding-bottom: 0px;
+	padding-left: 0.938rem;
+	margin: 0 auto;
+	min-width: 37.5rem; 
+	text-align: center;
 }
 div {
 	display: block;
@@ -129,10 +145,13 @@ div {
 	margin-bottom: 3.125rem;
 	margin-left: 0px;
 	font-weight: 300;
+	color: black;
+	text-align: center;
 }
 h2 {
 	display: block;
 	outline: none;
+	outline-color: white;
 }
 ol, ul {
 	list-style: none;
@@ -165,5 +184,8 @@ ul {
 	width: 2.5rem;
 	height: 2.5rem;
 	display: inline-block;
+	margin: 1.25rem 5px;
+	border: 1px solid #eaebec;
+	padding: 0.625rem 0;
 	text-align: center;
 }
